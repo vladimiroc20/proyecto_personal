@@ -12,3 +12,38 @@ body {
     margin: 0;
     font-family: 'Quicksand', sans-serif;
 }
+.menu-mobile{
+    padding: 24px;
+}
+.menu-mobile a{
+    /*display: inline-block;*/
+    text-decoration: none;
+    color: var(--black);
+    font-weight: bold;
+    /*margin-bottom: 24px;*/
+}
+.menu-mobile ul{
+    padding: 0;
+    margin: 24px 0 0;
+    list-style: none;
+}
+.menu-mobile ul:nth-child(1){
+    border-bottom:1px solid var(--very-light-pink);
+}
+.menu-mobile ul:nth-child(3){
+    position: absolute;
+    bottom: 0;
+}
+.menu-mobile ul li{
+    margin-bottom: 24px;
+}
+.email{
+    font-size: var(--sm);
+    font-weight: 300 !important;
+}
+.sing-out{
+    font-size: var(--sm);
+    color: var(--hospital-green) !important;
+}
+
+
