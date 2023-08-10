@@ -17,6 +17,7 @@ nav{
     justify-content: space-between;
     padding: 0 20px;
     height: 60px;
+    border-bottom: 1px solid var(--hospital-green);
 }
 .menu{
     display: none;
@@ -76,4 +77,19 @@ nav{
     position: absolute;
     top: -6px;
     right: -3px;
+}
+@media (max-width:640px){
+    .menu{
+        display: block;
+        width: 40px;
+        height: 40px;
+        margin-top: 10px;
+    }
+    .navbar-left ul{
+        display: none;
+    }
+    .navbar-email{
+        display: none;
+    }
+
 }
