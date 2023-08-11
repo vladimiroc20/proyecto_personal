@@ -54,7 +54,7 @@ body {
     color: var(--very-light-pink);
     font-size: var(--sm);
     margin-top: 0;
-    margin-bottom: 4px;
+    margin-bottom: 40px;
 }
 .product-detail-close:hover{
     cursor: pointer;
